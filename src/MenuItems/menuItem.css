@@ -1,0 +1,31 @@
+.Left-block{
+    float: left;
+    width : 30%;
+}
+
+.Right-block{
+    float: left;
+    width : 70%
+}
+
+.container{
+    display: flex;
+}
+
+.li-style{
+    cursor : pointer;
+}
+
+/* .li-style:hover{
+    list-style: none;
+    display: inline-block;
+} */
+
+.li-style:hover {
+    display: inline-block;
+    cursor: pointer;
+    border: solid black 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
